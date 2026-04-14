@@ -1,0 +1,35 @@
+function neon(){
+        document.body.style.backgroundColor = '#59eeda'
+}
+function lightblue(){
+        document.body.style.backgroundColor = '#0099ff'
+}
+function red(){
+        document.body.style.backgroundColor = '#ff0066'
+}
+function blue(){
+        document.body.style.backgroundColor = '#3366ff'
+}
+function white(){
+        document.body.style.backgroundColor = '#ffffff'
+}
+function lightgreen(){
+        document.body.style.backgroundColor = '#aaff80'
+}
+function image1(){
+        document.body.style.backgroundImage = "url('/files/images/backgroundimage1.jpg')"
+
+        document.body.style.backgroundSize = "cover";
+  
+        document.body.style.backgroundPosition = "center";
+
+        document.body.style.backgroundRepeat = "no-repeat";
+
+        document.body.style.backgroundAttachment = "fixed";
+}
+function image2(){
+        document.body.style.backgroundImage = "url('/files/images/backgroundimage2.png')"
+}
+function image3(){
+        document.body.style.backgroundImage = "url('/files/images/backgroundimage3.png')"
+}

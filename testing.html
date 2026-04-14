@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zinko's place</title>
+
+    <h1 id="changebg">change background</h1>
+    <button type="button" onclick="neon()">neon</button>
+    <button type="button" onclick="lightblue()">lightblue</button>
+    <button type="button" onclick="red()">red</button>
+    <button type="button" onclick="blue()">blue</button>
+    <button type="button" onclick="white()">white</button>
+    <button type="button" onclick="lightgreen()">lightgreen</button>
+    <button type="button" onclick="image1()">image 1</button>
+    <button type="button" onclick="image2()">image 2</button>
+    <button type="button" onclick="image3()">image 3</button>
+
+</head>
+<body>
+
+    <script src="script.js"></script>
+
+    <h2>welcome home</h2>
+
+    <h3 id="damm">click the button below to check date and time</h3>
+    <button type="button" onclick="document.getElementById('damm').innerHTML= Date()">click me!</button>
+
+    <img id="this_image" src='/files/images/baseimg.png' style="width:10cm;" alt="image 1">
+    <button type="button" onclick="document.getElementById('this_image').src='/files/images/image 1.jpg'">group photo</button>
+    <button type="button" onclick="document.getElementById('this_image').src='/files/images/image 2.jpg'">my pic</button>
+    <button type="button" onclick="document.getElementById('this_image').style.display= 'none'">delete photo</button>
+    <button type="button" onclick="document.getElementById('this-image').style.display= 'image'">recover image</button>
+ 
+
+</body>
+</html>
