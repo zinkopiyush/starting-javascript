@@ -1,0 +1,83 @@
+body{
+    background-color:#8080ff;
+    font-family:sans-serif;
+}
+
+ /* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}  */ 
+
+/*
+body.darktheme{
+    background-color: #323232;
+    color: aliceblue;
+}
+body.lighttheme{
+    background-color: #e6ffff;
+    color: black;
+}
+body.lighttheme h1
+body.lighttheme h2
+body.lighttheme p{
+    color: black;
+
+}
+*/
+
+
+/*
+ When the body has the 'darktheme' class, target every element (*) inside it 
+body.darktheme, 
+body.darktheme * {
+    color: "#e6ffff" !important;
+}
+
+ When the body has the 'lighttheme' class, target every element (*) inside it 
+body.lighttheme, 
+body.lighttheme * {
+    color: "#323232" !important;
+}
+
+*/
+
+head{
+    color: aqua;
+}
+
+#welcomeaboard{
+    text-align: center;
+    color: aliceblue;
+}
+
+#upperline{
+    text-align: center;
+    color: aliceblue;
+}
+
+#lightmode, #darkmode{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#logo{
+    margin: 10px;
+}
+
+#welcomeaboard{
+    margin-left: 10px;
+}
+
+.logosection {
+    display: flex;         /* This aligns items horizontally */
+    align-items: center;   /* This centers the logo and text vertically */
+    /* justify-content: center; /* This keeps them centered on the page */
+    /* gap: 20px;            /* Adds some breathing room between the logo and text */
+    /* margin-top: 20px;      /* Optional: moves it down from the very top */
+}

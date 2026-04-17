@@ -33,3 +33,30 @@ function image2(){
 function image3(){
         document.body.style.backgroundImage = "url('/files/images/backgroundimage3.png')"
 }
+
+
+/* function lightmode(){
+   
+        document.body.style.backgroundColor = "#e6ffff"
+        document.body.style.color= "#323232"
+    }
+function darkmode(){
+    document.body.style.backgroundColor = "#323232"
+    document.body.style.color= "#e6ffff";
+}   */
+
+ /* window.alert("the website is in testing phase.")  */
+
+ /*
+function darkmode() {
+    // This adds the class to the <body> tag
+    document.body.classList.add("darktheme");
+    document.body.classList.remove("lighttheme");
+}
+
+function lightmode() {
+    document.body.classList.add("lighttheme");
+    document.body.classList.remove("darktheme");
+}
+
+*/
